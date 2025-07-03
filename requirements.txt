@@ -1,0 +1,28 @@
+# requirements.txt
+# FastAPI Backend Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic
+python-multipart==0.0.6
+
+# LangGraph and LangChain
+langgraph
+langchain
+langchain-openai
+langchain-core
+
+# Google Calendar Integration
+google-auth==2.23.4
+google-auth-oauthlib==1.1.0
+google-api-python-client==2.108.0
+
+# Date/Time Processing
+python-dateutil==2.8.2
+
+# Streamlit Frontend
+streamlit
+requests==2.31.0
+
+# Additional Utilities
+python-dotenv==1.0.0
+asyncio==3.4.3
